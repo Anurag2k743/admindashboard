@@ -62,7 +62,7 @@ const pricingData = [
 const Ourpricing = () => {
 
     const handleClick = (title: string) => {
-    console.log(title);
+    // console.log(title);
     alert(title)
   };
 

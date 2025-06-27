@@ -1,6 +1,4 @@
 import React from 'react'
-import Purchaseapi from '../components/Purchaseapi'
-import Apitable from '../components/Apitable'
 import ApiKeysTab from '../components/ApiKeysTab'
 
 const page = () => {

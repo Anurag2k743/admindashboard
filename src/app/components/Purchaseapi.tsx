@@ -4,7 +4,6 @@ const Purchaseapi = () => {
     return (
 
         <>
-
             <div className='mt-12 w-full max-w-[537px] mx-auto'>
                 <div className='text-center'>
                     <h2 className='text-[40px] font-semibold '>Purchase API Credits</h2>
