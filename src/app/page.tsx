@@ -9,7 +9,7 @@ const page = () => {
     <>
    
       {
-        set ? <div className=''    onClick={()=>{setstate(false)}}> <AccountTab/> </div>:<Ourpricing/>
+        set ? <div className=''    onClick={setstate(false)}> <AccountTab/> </div>:<Ourpricing/>
       }
 
    

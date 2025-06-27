@@ -66,7 +66,6 @@ const Purchaseapi = () => {
                 </div>
             </div>
 
-            {/* <div className="absolute left-1/2  w-[1px] h-full bg-gray-700"></div> */}
 
         </>
     );

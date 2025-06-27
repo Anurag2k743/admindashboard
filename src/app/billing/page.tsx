@@ -1,5 +1,4 @@
 import React from 'react'
-import Ourpricing from '../components/Ourpricing'
 
 const page = () => {
   return (
