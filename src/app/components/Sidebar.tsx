@@ -16,7 +16,7 @@ const Sidebar = () => {
 
     return (
         <>
-            <aside className='w-[233px] border-r  border-white/10 inset-0 fixed'>
+            <aside className='w-[233px] border-r  border-white/10 h-screen' >
                 <div className='flex items-center justify-between text-white p-2.5'>
                     <Image src="/useradmin/logo.svg" alt="logo" width={43} height={56} />
                     <Link href="/" className='text-2xl font-[570]'>PHI PROTOCOL</Link>

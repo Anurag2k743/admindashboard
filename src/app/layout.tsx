@@ -19,8 +19,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="flex h-full bg-[url(/useradmin/admin.jpg)] bg-cover">
-          <Sidebar />
-          <div className="ml-[233px] flex  flex-col flex-1 overflow-y-scroll">
+          <div className="hidden md:block">
+            <Sidebar />
+          </div>
+          <div className=" flex  flex-col flex-1 overflow-y-scroll">
             <Topbar />
             <main className="flex-1 overflow-hidden p-5">
               {children}

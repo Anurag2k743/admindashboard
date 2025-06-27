@@ -5,11 +5,11 @@ const page = () => {
     <div className='h-screen'>
       <div className='flex justify-center'>
         <div
-          className='md:mt-44 w-[1067px] h-[212px] p-[1px] rounded-xl shadow-[0px_10px_61px_0px_#ffffff2e]'
+          className='md:mt-44 w-full lg:-[1067px] h-[212px] p-[1px] rounded-xl shadow-[0px_10px_61px_0px_#ffffff2e]'
           style={{
             background: 'linear-gradient(to bottom right, rgba(255,255,255,0.45) -0.88%, rgba(255,255,255,0.3) 24.09%, rgba(255,255,255,0.2) 48.88%, rgba(255,255,255,0.45) 109.62%)'
           }}>
-          <div className='rounded-xl w-full h-full bg-black p-4'>
+          <div className='rounded-xl w-full h-full bg-black p-4 overflow-x-scroll md:overflow-hidden'>
             <table className="w-full text-sm text-left border-collapse text-white">
               <thead className="bg-[#191919] text-white border-b-1 ">
                 <tr>
